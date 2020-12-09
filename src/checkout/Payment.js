@@ -1,6 +1,6 @@
 import "../App.css"
 import React, { useEffect, useState } from "react"
-
+import * as images from '../images/index'
 function Payment({
   handlePayment,
   activeProvider,
@@ -31,7 +31,7 @@ function Payment({
                   <img
                     onClick={handlePayment}
                     id={provider}
-                    src={`/images/${provider.toLowerCase()}.png`}
+                    src={`${images[provider].default}`}
                   />
                 </div>
               )

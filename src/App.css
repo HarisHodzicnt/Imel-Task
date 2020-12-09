@@ -662,7 +662,7 @@ hr{
 
 @media only screen and (max-width: 900px) {
   .checkout-left-side, .checkout-right-side{
-    padding:0px 100px;
+    padding:0px 50px;
     margin-bottom: 251px;
     flex:100%;
   }
@@ -725,6 +725,13 @@ hr{
     }
     .might-like>* {
       width: 40%;
+    }
+    button{
+      font-size: 12px;
+    }
+    .providers div:nth-of-type(n){
+      margin:0 4px;
+      padding:28px 5px;
     }
   }
 
