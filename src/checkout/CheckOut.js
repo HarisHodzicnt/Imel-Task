@@ -53,7 +53,7 @@ function Checkout() {
   return (
     <div className="checkout">
       <div className="checkout-left-side">
-        <img src={logo} />
+        <a href="/"><img src={logo} /></a>
         <div className="checkout-container">
           <ul className="breadcrumb">
             <li

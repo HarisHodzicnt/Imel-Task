@@ -140,6 +140,10 @@ button {
   padding-left:10px;
 }
 
+.App-header-left a div , .App-header-right a div {
+  margin-top:15px;
+}
+
 .Sale-header-left-img1, .Sale-header-right-img1{
   position: relative;
   z-index: 1;
@@ -149,7 +153,7 @@ button {
 .Sale-header-left-img2, .Sale-header-right-img2{
   position: relative;
   z-index: 2;
-  top:-110px;
+  top:-95px;
 }
 
 /*HOME PAGE CONTENT*/
@@ -169,7 +173,7 @@ button {
 }
 .left-bottom div, .right-bottom div{
   position: relative;
-  margin-top: -80px;
+  margin-top: -80px!important;
 }
 
 .left-bottom div{
@@ -667,7 +671,7 @@ hr{
     flex:100%;
   }
   .checkout-right-side .cart-container{
-    padding:0px 0px 0px 0px;
+    padding:0px 10px 0px 10px;
   }
   .confirmTab{
     margin-bottom: -150px;
@@ -837,8 +841,15 @@ hr{
   .cart-dropdown {
     transition: .7s;
   }
-
-
+  .checkout-left-side, .checkout-right-side{
+    padding:0px;
+  }
+  .checkout{
+    padding:0px 20px;
+  }
+  .checkout-right-side .cart-container{
+    padding: 0px 10px;
+  }
 }
 
 
