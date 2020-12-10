@@ -11,6 +11,9 @@ import menuIcon from "./images/menu-icon.png"
 import logo from './images/logo.svg'
 
 function NavBar({ cartQuantity, showMenu, handleShowMenu }) {
+  useEffect(()=>{
+    setActiveDropDown(showMenu)
+  })
   const [activeDropDown, setActiveDropDown] = useState()
 
   const handleDropDown = (e) => {
@@ -18,6 +21,8 @@ function NavBar({ cartQuantity, showMenu, handleShowMenu }) {
     setActiveDropDown(!activeDropDown)
     handleShowMenu(!showMenu)
   }
+  console.log(activeDropDown)
+  console.log(showMenu)
 
   return (
     <div style={{ background: "white" }}>
